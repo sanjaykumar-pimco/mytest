@@ -1,0 +1,69 @@
+{ "tabDetails" : [  
+    {  
+       "tabName":"Rule 1",
+       "details":[  
+          {  
+             "ruleName":"R1",
+             "selected":true,
+             "details":"1==1, exp%400 = 1"
+          },
+          {  
+             "ruleName":"R1",
+             "selected":true,
+             "details":"1==1, exp%400 = 1"
+          }
+       ]
+    },
+    {  
+       "tabName":"Rule 2",
+       "details":[  
+          {  
+             "ruleName":"R1",
+             "selected":true,
+             "details":"1==1, exp%400 = 1"
+          },
+          {  
+             "ruleName":"R1",
+             "selected":true,
+             "details":"1==1, exp%400 = 1"
+          },
+          {  
+             "ruleName":"R1",
+             "selected":true,
+             "details":"1==1, exp%400 = 1"
+          }
+       ]
+    },
+    {  
+       "tabName":"Rule 3",
+       "details":[  
+          {  
+             "ruleName":"R1",
+             "selected":true,
+             "details":"1==1, exp%400 = 1"
+          },
+          {  
+            "ruleName":"R1",
+            "selected":true,
+            "details":"1==1, exp%400 = 1"
+         }
+       ]
+    },
+    {  
+       "tabName":"Rule 4",
+       "details":[  
+          {  
+             "ruleName":"R1",
+             "selected":true,
+             "details":"1==1, exp%400 = 1"
+          },
+          {  
+            "ruleName":"R1",
+            "selected":true,
+            "details":"1==1, exp%400 = 1"
+         }
+       ]
+    }
+ ],
+ "activeTabIndex": 2 
+}

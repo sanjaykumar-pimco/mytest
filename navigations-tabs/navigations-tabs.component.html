@@ -1,0 +1,41 @@
+<div class="navbar">
+    <div class="navbar-start">
+        <div *ngFor="let tab of tabDetails.tabDetails; index as i">
+            <div class="subnav">
+                <div class="subnavbtn" [ngClass]="{'active-tab' :(i === tabDetails.activeTabIndex)}"
+                    (click)="tabDetails.activeTabIndex = i">
+                    <div class="tab-name">{{tab.tabName}} <i class="hide fa fa-chevron-down"></i>
+                    </div>
+
+                </div>
+                <div class="subnav-content">
+                    <span class="rule-heading">Rules</span>
+                    <hr>
+                    <div *ngFor="let rule of tab.details">
+                        <p-checkbox class="rule-checkboxes" label="{{rule.ruleName}}" [(ngModel)]="rule.selected"
+                            binary="false" pTooltip="{{rule.details}}" (click)="tabDetails.activeTabIndex = i">
+                        </p-checkbox>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <i (click)="addNewtab()" class="fa fa-plus-circle"></i>
+    <div class="download"><i class="fa fa-download"></i></div>
+</div>
+
+<div>
+
+
+
+
+</div>
+
+<div class="footer">
+    <span class="last-refresh"><span style="opacity:0.6;font-size: 10px;font-family: ProximaNova-It;opacity: 0.6;
+        font-size: 10px;
+        font-family: ProximaNova-It;
+        color: #000000;
+        height: 12px;">Last Refresh: {{ lastRefresh | date: 'mediumTime' }} 03:45:24 PM </span>
+        <img class="refresh-icon" src="../../assets/ux-icon/ic-refresh.svg" alt=""> </span>
+</div>
